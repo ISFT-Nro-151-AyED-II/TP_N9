@@ -52,18 +52,18 @@ int main()
         std::cout << "========================================================\n\n";
 
         std::cout << "🛒 Cliente solicita un juego de muebles MODERNOS:\n\n";
-        // Instanciación en Stack de la fábrica (se destruye sola al salir del scope)
+        // Instanciación en Stack de la fábrica (se destruye sola al salir del scope).
         FabricaModerna fabricaModerna;
         probarMuebleria(fabricaModerna);
 
         std::cout << "\n--------------------------------------------------------------------------------------\n\n";
 
         std::cout << "🛒 Cliente solicita un juego de muebles VICTORIANOS:\n\n";
-        // Siguiendo el Diagrama de Secuencia: instanciación dinámica de la fábrica en el Heap
+        // Siguiendo el Diagrama de Secuencia: instanciación dinámica de la fábrica en el Heap.
         FabricaMuebles* fabricaVictoriana = new FabricaVictoriana();
         probarMuebleria(*fabricaVictoriana);
         
-        // Limpieza de la fábrica dinámica
+        // Limpieza de la fábrica dinámica.
         delete fabricaVictoriana;
 
         std::cout << "\n\n✅ Ejecución finalizada correctamente. Memoria limpia.\n";
