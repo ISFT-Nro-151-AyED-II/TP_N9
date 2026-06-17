@@ -1,4 +1,4 @@
-# 💻 Trabajo Práctico N°9: Unidad N°3 - Primera Parte - 
+# 💻 Trabajo Práctico N°9: Unidad N°3 - Primera Parte
 
 **Instituto Superior de Formación Técnica Nº 151**   
 **Carrera:** Tecnicatura Superior en Análisis de Sistemas  
